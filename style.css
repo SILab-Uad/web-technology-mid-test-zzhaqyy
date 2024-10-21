@@ -4,24 +4,70 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #ffffff; /* Background color */
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #fff; /* Background color for container */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
 }
 
-/* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #4a4a4a; 
+    text-align: center;
 }
 
-/* Add more styles here as needed */
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block; 
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+button.left-button {
+    background-color: #3377e3; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+button.right-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 10px;
+}
+button:hover {
+    opacity: 0.9;
+}
